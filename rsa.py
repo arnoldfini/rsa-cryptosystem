@@ -40,7 +40,6 @@ def initialise() -> None:
     m = p*q
 
 
-# Encrypt
 def E(x: str) -> List[int]:
     '''Encrypt a string
     '''
@@ -54,7 +53,6 @@ def E(x: str) -> List[int]:
     return cypher_text
 
 
-# Decrypt
 def D(x: List[int]) -> str:
     '''Decrypt
     '''
