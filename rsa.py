@@ -44,8 +44,6 @@ def E(x: str) -> List[int]:
     '''Encrypt a string
     '''
     x = chartonum(x)
-    print(len(abc))
-    print(x)
     cypher_text = []
 
     for num in x:
